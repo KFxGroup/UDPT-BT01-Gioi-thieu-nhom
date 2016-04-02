@@ -4,83 +4,90 @@
 	<title>Home</title>
 	<meta charset="utf-8"/>
 	<meta name="description" content="đây là trang chủ giới thiệu nhóm">
+	<!--<link rel="stylesheet" type="text/css" href="reset.css">-->
+	<link rel="stylesheet" type="text/css" href="homestyle.css">
 </head>
 <body>
-	<div id ="header"><!-- đây là phần header---> 
-		<div id="logo"><!--đây là phần logo-->
-			<h1>KFxGroup</h1>
-			<p>Welcome you</p>
-		</div><!--end-->
-		<div id="menu_ngang"><!--đây là phần menu ngang-->
-			<ul>
-					<li><a href="home.html" title="Trang chủ"><img src="img\home.png"></a></li>
-					<li><a href="1112508.html" title="1112508">1112508</a></li>
-					<li><a href="#" title="1112456">1112456</a></li>
-					<li><a href="#" title="Liên hệ"><img src="img\contact.png"></a></li>
-			</ul>
-		</div><!--end-->
-	</div><!--hết header-->
-
-	<div id="body"><!--đây là phần thân website-->
-		<div id="banner"><img src="img\banner1.png"></div><!--banner-->
-
-		<div class="row1"><!--chia cột-->
-			<div id="menu_doc"><!--left menu-->
+	<div id="all">
+		<div id ="header"><!-- đây là phần header--> 
+			<div id="logo"><!--đây là phần logo-->
+				<div id="image"><img src="img\logo.png"></div> 
+				<div id="gname">
+					<p id="name">KFxGroup</p>
+				</div>	
+				</span>
+			</div><!--end-->
+			<div id="menu_ngang"><!--đây là phần menu ngang-->
 				<ul>
-					<li><a href="home.html" title="Trang chủ">Trang chủ</a></li>
-					<li><a href="1112508.html" title="1112508">1112508</a></li>
-					<li><a href="#" title="1112456">1112456</a></li>
-					<li><a href="#" title="Liên hệ">Liên hệ</a></li>
+						<li class="icon"><a href="home.html" title="Trang chủ"><img src="img\home.png"></a></li>
+						<li class="icon"><a href="1112508.html" title="1112508"><img src ="img\foxicon.png"/></a></li>
+						<li class="icon"><a href="#" title="1112456"><img src="img\fox2.png"/></a></li>
+						<li class="icon"><a href="#" title="Liên hệ"><img src="img\contact.png"></a></li>
 				</ul>
-			</div><!--hết left menu-->
+			</div><!--end-->
+		</div><!--hết header-->
 
-			<div id="info_group"><!--thông tin nhóm-->
-				<div class="row2"><!--ảnh nhóm và thông tin nhóm-->
-					<div id="info" class="col1">KFx Group</div>
-					<div id="img_group" class="col1"></div>
-				</div><!--end img-->
-				<div class="row3"><!--một số bài blog của nhóm-->
-					<div id="box1" class="col2">
-						<h3>Lorem ipsum dolor sit amet</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida finibus ante. Duis imperdiet et ex eu interdum. Morbi est orci, elementum at nisl eu, convallis accumsan lacus. Curabitur venenatis faucibus nibh, vel sagittis dolor blandit id. Sed ac libero tortor.</p>
-					</div>
-					<div id="box2" class="col2">
-						<h3>Lorem ipsum dolor sit amet</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida finibus ante. Duis imperdiet et ex eu interdum. Morbi est orci, elementum at nisl eu, convallis accumsan lacus. Curabitur venenatis faucibus nibh, vel sagittis dolor blandit id. Sed ac libero tortor.</p>
-					</div>
-				</div><!--end blog-->
-			</div><!--hết thông tin nhóm-->
+		<div id="content"><!--đây là phần thân website-->
+			<div id="banner"><img src="img\banner1.png"></div><!--banner-->
 
-			<div id="info_mem"><!--thông tin thành viên-->
-				<div id="mem1"><!--thông tin thành viên 1-->
-					<a href="1112508.html" title="1112508"><img src="img\ava1.png"></a>
-					<h2>Thành viên 1</h2>
-					<div id="info_mem1" class="info">
-						<ul>
-							<li>112508</li>
-							<li>Phan Huỳnh Diệp Trúc</li>
-							<li><a href="#">1112508@student.hcmus.edu.vn</a></li>
-						</ul>	
-					</div>
-				</div><!--end info 1-->
+			<div id="ruot"><!--bắt đầu phần ruột-->
+				<div id="menu_doc"><!--left menu-->
+					<ul>
+						<li><a href="home.html" title="Trang chủ">Trang chủ</a></li>
+						<li><a href="1112508.html" title="1112508">1112508</a></li>
+						<li><a href="#" title="1112456">1112456</a></li>
+						<li><a href="#" title="Liên hệ">Liên hệ</a></li>
+					</ul>
+				</div><!--hết left menu-->
 
-				<div id="mem2" class="info"><!--thông tin thành viên 2-->
-					<a href="#"><img src="img\ava2.png"></a>
-					<h2>Thành viên 2</h2>
-					<div id="info_mem2">
-						<ul>
-							<li>1112456</li>
-							<li>Đỗ Tấn Minh</li>
-							<li><a href="#">1112456@student.hcmus.edu.vn</a></li>
-						</ul>	
-					</div>
-				</div><!--end info 2-->
-			</div><!--hết thông tin thành viên-->
-		</div><!--end chia cột-->
-	</div><!--hết body-->
+				<div id="info_group"><!--thông tin nhóm-->
+					<div id="info" ><!--ảnh nhóm và thông tin nhóm-->
+						<div id="name">KFx Group</div>
+						<div id="img"><img src="img\img_group.jpg"></div>
+					</div><!--end img-->
+					<div id="blog"><!--một số bài blog của nhóm-->
+						<div id="box1">
+							<h3>Lorem ipsum dolor sit amet</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida finibus ante. Duis imperdiet et ex eu interdum. Morbi est orci, elementum at nisl eu, convallis accumsan lacus. Curabitur venenatis faucibus nibh, vel sagittis dolor blandit id. Sed ac libero tortor.</p>
+						</div>
+						<div id="box2">
+							<h3>Lorem ipsum dolor sit amet</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida finibus ante. Duis imperdiet et ex eu interdum. Morbi est orci, elementum at nisl eu, convallis accumsan lacus. Curabitur venenatis faucibus nibh, vel sagittis dolor blandit id. Sed ac libero tortor.</p>
+						</div>
+					</div><!--end blog-->
+				</div><!--hết thông tin nhóm-->
 
-	<div id="footer"><!-- đây là chân website-->
-		<p>Copyright &copy; KFxGroup 2016</p>
-	</div><!--end footer-->
+				<div id="info_mem"><!--thông tin thành viên-->
+					<div id="mem1"><!--thông tin thành viên 1-->
+						<a href="1112508.html" title="1112508"><img src="img\ava1.png"></a>
+						<h2>Thành viên 1</h2>
+						<div id="info_mem1" class="info">
+							<ul>
+								<li>112508</li>
+								<li>Phan Huỳnh Diệp Trúc</li>
+								<li><a href="#">1112508@student.hcmus.edu.vn</a></li>
+							</ul>	
+						</div>
+					</div><!--end info 1-->
+
+					<div id="mem2" class="info"><!--thông tin thành viên 2-->
+						<a href="#" title="1112456"><img src="img\ava2.png"></a>
+						<h2>Thành viên 2</h2>
+						<div id="info_mem2">
+							<ul>
+								<li>1112456</li>
+								<li>Đỗ Tấn Minh</li>
+								<li><a href="#">1112456@student.hcmus.edu.vn</a></li>
+							</ul>	
+						</div>
+					</div><!--end info 2-->
+				</div><!--hết thông tin thành viên-->
+			</div><!--hết ruột-->
+		</div><!--hết body-->
+
+		<div id="footer"><!-- đây là chân website-->
+			<p>Copyright &copy; KFxGroup 2016</p>
+		</div><!--end footer-->
+	</div>
 </body>
 </html>
