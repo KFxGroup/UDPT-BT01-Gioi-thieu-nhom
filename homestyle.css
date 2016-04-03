@@ -197,11 +197,10 @@ h2, h3{
 		#info_group{
 		     width: 56.275%;
 	     	 min-height: 727px;
-		     border: 1px solid #CDCDCD;
 		     float:left;
 		     margin-left: 5px;
 		     margin-right: 5px;
-	     	border: 2px solid #555;
+	     	/*border: 2px solid #555;*/
 		}
 			#info_group #info{
 				max-width: 100%;
@@ -267,6 +266,10 @@ h2, h3{
 
 			#box3{
 				background-color: #ffb399;
+			}
+
+			#box4{
+				background-color: #ffff66;
 			}
 
 				.row .col a{
