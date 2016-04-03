@@ -8,11 +8,34 @@
 	border: none;
 }
 
+@media all and (max-width: 320px) {
+   body {
+      background: #e7e7e7;
+   }
+}
+
+@media all and (min-width: 1280px){
+	body {
+      background: #e7e7e7;
+   }
+}
+
+@media all and (min-width: 1024px){
+	body {
+      background: #e7e7e7;
+   }
+}
+
+@media all and (min-width: 600px){
+	body {
+      background: #e7e7e7;
+   }
+}
+
 body{
 	font-family: Calibri, Trebuchet MS, Arial, sans-serif;
 	font-weight: 500;
 	background-image: url('http://backgroundidea.info/wp-content/uploads/2015/03/white-background-images-for-websites-hd-website-background-hd-wallpapers------part-4-----pic13-wallpaper-hd.jpg');
-	background-color: white;
 	transition: all 1s;
 	-moz-transition: all 1s;
 	-webkit-transition: all 1s;
@@ -20,13 +43,18 @@ body{
 
 a{
 	text-decoration: none;
+	font-weight: 700;
 	color:;
 }
 
+
+/*--cố định page--*/
 #all{
 	position: relative;
 }
 
+
+/*--style cho phần header--*/
 #header{
 	width: 100%;
 	height: 7,57%;
@@ -34,6 +62,7 @@ a{
     background-color: #333;
 }
 
+	/*--logo--*/
 	#header #logo{
 		width: 16%;
 		float: left;
@@ -66,8 +95,9 @@ a{
 				color: #666;
 				border-left: 1px solid #666;
 				padding-left: 1px;
-			}
+			}/*--end logo--*/
 
+	/*--phần menu ngang--*/
 	#header #menu_ngang{
 		width: 50%;
 		float: right;
@@ -93,33 +123,40 @@ a{
 				transform: rotate(80deg);
 				-moz-transform: rotate(80deg);
 				-webkit-transform: rotate(80deg);
-			}
+			}/*--end menu ngang--*/
+/*--end header--*/
 
 
+/*--style cho thân trang--*/
 #content{
 	padding-top: 50px;
 	width: 90%;
 	margin: 0 auto;
+	min-height: 1000px;
 }
 	
+	/*--banner--*/
 	#content #banner{
-		max-width: 100%;
-		height: 30%;
+		min-width: 100%;
+		height: auto;
 		overflow: hidden;
 		border: 1px solid #cdcdcd;
 		padding-top: 2.5px;
-	}
+		border: 2px solid #666;
+	}/*--end banner--*/
 
+	/*--phần chia làm 3 cột--*/
 	#content #ruot{
 		margin: 5px 0 5px 0;
 		min-height: 650px;
 		border: none;
 	}
 
+		/*--phần menu dọc--*/
 		#menu_doc{
-	     width: 16%;
-	     min-height: 650px;
-	     border: 1px solid #CDCDCD;
+	     width: 15.675%;
+	     min-height: 727px;
+	     border: 2px solid #666;
 	     float:left;
 		}
 
@@ -133,76 +170,177 @@ a{
 					line-height: 40px;
 					border-bottom: 1px solid #666;
 					padding: 0;
+					transition: all 1s;
+	                -moz-transition: all 1s;
+	                -webkit-transition: all 1s;
 				}
 
 				#menu_doc ul li a:hover{
 					background-color: #777;
-					color: black;
+					color: white;
 				}
 
 					#menu_doc ul li a{
 						display: block;
+						color:#10100a;
 					}
+		/*--end menu dọc--*/
 
+		/*--phần thông tin nhóm ở giữa--*/
 		#info_group{
 		     width: 56.275%;
-		     min-height: 650px;
+	     	 min-height: 727px;
 		     border: 1px solid #CDCDCD;
 		     float:left;
 		     margin-left: 5px;
 		     margin-right: 5px;
+	     	border: 2px solid #666;
 		}
-		#info_group #info{
-			max-width: 100%;
-			height: 150px;
-			margin: 5px;
-			border-radius: 4px;
-			border: 2px solid #E3D8D8;
-			overflow: auto;
-			box-shadow: 1px 1px 1px #E3D8D8;
-		}
-				#info_group #info #img{
-					float: right;
-					width: 50%;
-					margin-top: 5px;
+			#info_group #info{
+				max-width: 100%;
+				height: 150px;
+				margin: 5px;
+				border-radius: 4px;
+				border: 2px solid #cdcdcd;
+				overflow: auto;
+				box-shadow: 1px 1px 1px #E3D8D8;
+				z-index: 2;
+			}
+					
+					/*--phần ảnh nhóm và tên nhóm--*/
+					#info_group #info #img{
+						float: right;
+						width: 50%;
+						margin-top: 5px;
+					}
+
+					#info_group #info #name{
+						float: left;
+						width: 40%;
+						height: 120px;
+						text-align: center;
+						padding-top: 50px;
+						margin: 10px;
+						border-right: 2px solid #C2B8B8;
+						font-weight: 900;
+						font-size: 20px;
+						font-family: Papyrus, Goudy Old Style, Franklin Gothic Medium, sans-serif;
+						font-style: oblique;
+						text-shadow: 2px 2px 1px #888888;
+					}
+					/*--end ảnh nhóm và tên nhóm--*/
+			
+			/*--style cho blog--*/
+			#blog{
+				margin-top: 3%;
+			}
+			.row{
+				padding-top: 10px;
+				border-top: 2px dotted #C2B8B8;
+			}
+
+			.row .col{
+				float: left;
+				width: 98%;
+				height: auto;
+				margin: 5px;
+				padding: 5px;
+				border: 2px solid #cdcdcd;
+				border-radius: 4px;
+				box-shadow: 1px 1px 1px #E3D8D8;
+			}
+
+			#box1{
+				background-color: #ffe699;
+			}
+
+			#box2{
+				background-color: #ffcc99;
+			}
+
+			#box3{
+				background-color: #ffb399;
+			}
+
+				.row .col a{
+					color: #333;
+				}
+				.row .col a h3:hover{
+					color: #ff9900;
+					font-style: italic;
 				}
 
-				#info_group #info #name{
-					float: left;
-					width: 40%;
-					height: 120px;
-					text-align: center;
-					padding-top: 50px;
-					margin: 10px;
-					border-right: 2px solid #C2B8B8;
-					font-weight: 900;
-					font-size: 20px;
-					font-family: Papyrus, Goudy Old Style, Franklin Gothic Medium, sans-serif;
-					font-style: oblique;
-					text-shadow: 2px 2px 1px #888888;
+				.col p{
+					padding-top: 5px;
+					font-family: Candara, Calibri, Arial, sans-serif;
+					font-weight: 300;
+					font-size: 15px;
 				}
-
-
-
+			/*--end blog--*/
+		/*--end thông tin nhóm--*/
 
 		
-
+		/*--cột thành viên--*/
 		#info_mem{
-		     width: 26.5%;
-		     min-height: 650px;
+		     width: 26.775%;
+	     	 min-height: 727px;
 		     border: 1px solid #CDCDCD;
 		     float:right;
 		     border-radius: 4px;
+		     overflow: hidden;
+		     border: 2px solid #666;
 		}
 
+			#info_mem .info a img{
+				transition: all 1s;
+	           -moz-transition: all 1s;
+	           -webkit-transition: all 1s;
+			}
+			#info_mem .info a img:hover{
+				transform: scale(1.5);
+			}
 
 
+			#mem1{
+				margin-top: 0;
+			}
+
+			#mem2{
+				margin-top: 10px;
+				border-top: 2px solid #E3D8D8;
+				padding-top: 10px;
+			}
+		
+				#info_mem .info h2{
+					text-align: center;
+					color:#ebebe0;
+					font-style: italic;
+					background-color:  #777;
+					border-radius: 4px;
+					border: 2px solid #f5f5f0;
+					box-shadow: 1px 1px 1px #E3D8D8;
+
+				}
+				#info_mem .info .info1 ul{
+					list-style-type: none;
+					text-align: left;
+				}
+		/*--end thành viên--*/
+/*--end phần chia làm 3 cột--*/
+
+
+/*--style cho footer--*/
 #footer{
+	width: 100%;
 	height: 10%;
     background-color: #333;
+    color:#d6d6c2;
+    padding: 10px;
     margin: 0 auto;
-    padding-bottom: 0;
     text-align: center;
     clear: both;
-}
+    padding-bottom: 0;
+	border-top: 5px solid #333;
+	position: absolute;
+}/*--end footer--*/
 
