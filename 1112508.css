@@ -17,18 +17,6 @@ body{
 	-webkit-transition: all 1s;
 }
 
-@media all and (min-width: 1024px){
-	body {
-      background: #e7e7e7;
-   }
-}
-
-@media all and (min-width: 600px){
-	body {
-      background: #e7e7e7;
-   }
-}
-
 a{
 	text-decoration: none;
 	color: #333;
