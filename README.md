@@ -12,25 +12,25 @@ URL: https://github.com/KFxGroup/UDPT-BT01-Gioi-thieu-nhom.git
 
 Yêu cầu **GIT**:
 
-* [ ] Có sử dụng GIT.
+* [x ] Có sử dụng GIT.
 * [ ] Sử dụng GIT trên 1 branch.
 * [ ] Sử dụng GIT theo Centralized Workflow.
-* [ ] Sử dụng GIT theo Feature Branch Workflow.
+* [x ] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
 
 * [ ] Thiết kế theo table.
-* [ ] Thiết kế với div.
-* [ ] Thiết kế nâng cao
-    * [ ] Navigation, header, footer, sidebar.
-    * [ ] Các hiệu ứng: hover, focus,...
-* [ ] Thiết kế chạy trên nhiều trình duyệt
-    * [ ] IE
-    * [ ] Firefox
-    * [ ] Chrome
-    * [ ] Icon, màu sắc,...
-* [ ] Thiết kế responsive
+* [x ] Thiết kế với div.
+* [x ] Thiết kế nâng cao
+    * [x] Navigation, header, footer, sidebar.
+    * [x] Các hiệu ứng: hover, focus,...
+* [x ] Thiết kế chạy trên nhiều trình duyệt
+    * [x] IE
+    * [x] Firefox
+    * [x] Chrome
+    * [x] Icon, màu sắc,...
+* [x] Thiết kế responsive
 
 Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 
@@ -39,7 +39,7 @@ Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 
 Link ảnh GIF demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
+https://github.com/KFxGroup/UDPT-BT01-Gioi-thieu-nhom/blob/master/UDPT-bt01.gif
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
